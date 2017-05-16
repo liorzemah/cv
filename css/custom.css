@@ -1,0 +1,75 @@
+body{
+    font-family: 'Open Sans','sans-serif';
+}
+#cv{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+#profile{
+    background: black;
+    color: beige;
+    padding: 25px;
+}
+#intro{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+#intro img{
+    border-radius: 50%;
+}
+#intro header{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+#intro header h1{
+    font-weight: 300;
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+#intro header h2{
+    
+    font-weight: 600;
+    color: #d07628;
+    font-size: 40px;
+    margin: 0; 
+}
+#intro header h3{
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    margin: 0; 
+    
+}
+#about{
+    border-left: 1px solid white;
+    padding: 15px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+#contact-info{
+    display: flex;
+}
+#contact-info ul{
+    list-style: none;
+    
+}
+#contact-info ul:first-child{
+    font-weight: 600;
+    padding: 0px;
+}
+#social-networks{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+#social-networks a{
+    color: white;
+    text-decoration: none;
+}
