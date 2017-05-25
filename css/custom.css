@@ -73,3 +73,132 @@ body{
     color: white;
     text-decoration: none;
 }
+
+#line2  {
+    
+    display: flex;
+    padding: 0px;
+}
+
+#experience{
+    background: white;
+    width: 650px;
+}
+
+#Part2 ul {
+    list-style: none;
+    margin: 0;
+}
+
+#Part2  ul ul{
+    display: flex;
+    
+}
+
+#Part2  ul li  {
+ margin-bottom: 20px;
+    background-size: auto;
+}
+
+#Part2  ul li h1{
+    font-size: 25px;
+    margin: 0;
+    padding-top: 40px;
+    /*text-align: right;*/
+}
+#Part2  ul li h2{
+    font-size: 18px;
+    color: aqua;
+    margin: 0;
+}
+
+#Part2  ul li h3{
+    font-size: 12px;
+    color: darkgrey;
+    margin: 0;
+}
+h4{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    margin: 0;
+}
+#Part2  ul li ul li:first-child{
+    text-align: right;
+    margin-right: 35px;
+}
+#Part2  ul li ul li:nth-child(2){
+    text-align: left;
+    
+}
+
+#skills{
+     display: grid;
+   background-color: lightsteelblue;
+    padding: 0;
+     margin-left: 25px;
+}
+
+#pro{
+    background-color: cadetblue;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+#per{
+    background-color: darkgoldenrod;
+    padding-left: 35px;
+    padding-right: 35px;
+
+
+
+}
+#skills ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+#skills ul li{
+   
+    padding-right: 10px;
+}
+#skills ul li ul {
+    display: inline;
+    text-align: right;
+}
+
+#skills h1{
+    padding: 0;
+}
+
+#education {
+    background-color: gainsboro;
+    display: flex;
+    padding: 0px;
+}
+
+#last {
+    background-color: white;
+    display: flex;
+    padding: 0px;
+}
+#hobbies{
+     background-color: white;
+     padding: 0;
+     width: 650px;
+    
+}
+
+#hobbies ul li ul li{
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#language{
+    padding-left: 35px;
+    padding-right: 35px;
+}
