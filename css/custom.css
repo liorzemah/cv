@@ -122,13 +122,20 @@ h4{
     color: black;
     font-weight: 500;
     margin: 0;
+    padding: 0;
+    
 }
 #Part2  ul li ul li:first-child{
     text-align: right;
-    margin-right: 35px;
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+
 }
 #Part2  ul li ul li:nth-child(2){
-    text-align: left;
+    padding: 0;
+    margin: 0;
+    padding-right: 25px;
     
 }
 
@@ -136,24 +143,22 @@ h4{
      display: grid;
    background-color: lightsteelblue;
     padding: 0;
-     margin-left: 25px;
+
+    
 }
 
 #pro{
     background-color: cadetblue;
     padding-left: 35px;
-    padding-right: 35px;
+    width: 310px;
 }
 #per{
     background-color: darkgoldenrod;
     padding-left: 35px;
-    padding-right: 35px;
-
-
-
+    width: 310px;
 }
 #skills ul{
-    display: flex;
+ 
     list-style: none;
     padding: 0px;
 }
@@ -161,8 +166,8 @@ h4{
    
     padding-right: 10px;
 }
-#skills ul li ul {
-    display: inline;
+#skills ul li ul{
+    display: flex;
     text-align: right;
 }
 
@@ -183,14 +188,14 @@ h4{
 }
 #hobbies{
      background-color: white;
-     padding: 0;
+     padding: 0px;
      width: 650px;
     
 }
 
 #hobbies ul li ul li{
     text-align: center;
-    margin: 0;
+    margin: 0px;
     display: flex;
     justify-content: center;
     padding: 0px;
@@ -200,5 +205,9 @@ h4{
 }
 #language{
     padding-left: 35px;
-    padding-right: 35px;
+    width: 310px;
 }
+#progr{
+    background-color: black;
+}
+
